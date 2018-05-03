@@ -1,0 +1,16 @@
+.box1 { border: 1px solid #333; margin: 5px; height: 20px;}
+.box {  height: 20px;}
+#box1 { float: left; width: 30%; background-color: red;}
+#box2 { float: left; width: 70%; background-color: blue;}
+#box3 { float: left; width: 200px; background-color: red;}
+#box4 { background-color: blue; overflow: hidden;}
+#box5 { float: left; width: 100%; background-color: red; overflow: hidden; margin-right: -200px;}
+#box6 { float: right; width: 200px; background-color: blue;}
+
+#box7 { float: left; width: 200px; background-color: blue;}
+#box8 { float: right; width: 200px; background-color: blue;}
+#box9 { background-color: red; margin: 0 200px; overflow: hidden;}
+
+#box10 { float: left; width: 200px; background-color: blue;}
+#box11 { float: left; width: 200px; background-color: red;}
+#box12 { background-color: blue; overflow: hidden; margin-left: 400px;}

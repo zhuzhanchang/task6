@@ -1,0 +1,166 @@
+* { 
+    margin: 0;
+    padding: 0;
+}
+li {
+    list-style: none;
+}
+
+body {
+    font-family: '微软雅黑'；
+}
+
+
+/* header style*/
+#header {
+    width: 100%;
+    height: 80px;
+    background-color: #333333;
+
+}
+.header {
+    width: 960px;
+    margin: 0 auto;
+    position: relative;
+}
+#side_nav {
+    position: absolute;
+    top: 5px;
+    right: 0px;
+}
+#side_nav ul li {
+    float: left;
+    margin: 0 5px;
+
+}
+#side_nav ul li a {
+    color: white;
+}
+
+/* banner style*/
+#banner {
+    background-color: #66bb33;
+    width: 100%;
+    height: 300px;
+}
+#ban {
+    width: 960px;
+    margin: 0 auto;
+    position: relative;
+}
+#ban_img li {
+    display: none;
+}
+#ban_img .active {
+    display: block;
+}
+#ban_num {
+    position: absolute;
+    right: 0;
+    top: 255px;
+
+}
+#ban_num li {
+    float: left;
+    width: 25px;
+    height: 30px;
+    border: 1px solid #335e1a;
+    margin: 0 5px;
+    background-color: #b2dd99;
+    line-height: 30px;
+    text-align: center;
+}
+#ban_num .active {
+    height: 35px;
+    border: 1px solid #14250a;
+    margin: -5px 5px 0px 5px;
+    background-color: #e0f1d6;
+    text-align: center;
+    line-height: 35px;
+}
+/* nav style*/
+#nav {
+    width: 100%;
+    border-bottom: 1px solid #dddddd;
+    height: 70px;
+
+}
+#nav .nav {
+    width: 960px;
+    margin: 0 auto;
+    position: relative;
+
+}
+#nav ul {
+    position: absolute;
+    top: 19px;
+    left: 5px;
+}
+#nav ul li {
+    float: left;
+    width: 110px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    border: 1px solid #dddddd;
+    border-radius: 8px 8px 0 0;
+    background-color: #eee;
+}
+#nav ul .active {
+    border-bottom: #fff;
+    background-color: #fff;
+    height: 51px;
+    margin-bottom: -1px;
+}
+
+
+/* content style*/
+#content .content {
+    width: 960px;
+    margin: 0 auto;
+    height: 575px;
+    margin-top: 5px;
+}
+#content .bor {
+    margin:5px;
+    border: 1px solid #ccc;
+    height: 175px;
+    float: left;
+    line-height: 175px;
+    text-align: center;
+}
+
+#content_1,
+#content_2 {
+    width: 323px;
+}
+#content_3 {
+    width: 278px;
+}
+#content_4,
+#content_5,
+#content_6,
+#content_7 {
+    width: 228px;
+}
+#content_8,
+#content_9,
+#content_10 {
+    width: 308px;
+}
+
+/* footer style*/
+#footer {
+    background-color: #666666;
+    height: 120px;
+}
+#footer div {
+    width: 150px;
+    margin: 0 auto;
+    padding-top: 5px; 
+}
+#footer a {
+    color: #ffffe6;
+    text-decoration: none;
+
+}
